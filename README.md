@@ -2,7 +2,7 @@
 
 ```
 import (
-	protocol "https://github.com/pengzj/swift-protocol"
+	"https://github.com/pengzj/swift-protocol"
 	"fmt"
 )
 
