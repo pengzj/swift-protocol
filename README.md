@@ -25,7 +25,7 @@ func main()  {
 }
 ```
 
-#benchmark
+# benchmark
 ```
 go test -bench=.
 goos: darwin
