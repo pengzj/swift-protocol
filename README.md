@@ -24,3 +24,16 @@ func main()  {
 	fmt.Println(msgId, routeId, string(body))
 }
 ```
+
+#benchmark
+```
+go test -bench=.
+goos: darwin
+goarch: amd64
+BenchmarkMessageEncode-4        20000000                58.4 ns/op
+BenchmarkMessageDecode-4        100000000               17.1 ns/op
+BenchmarkEncode-4               20000000               100 ns/op
+BenchmarkDecode-4               100000000               10.8 ns/op
+PASS
+
+```
